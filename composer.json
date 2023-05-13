@@ -1,0 +1,27 @@
+{
+    "name": "galka/laravel-telegram-logger",
+    "description": "Telegram-logger package for Laravel",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Galina Mikhailova",
+            "email": "galina89ruzhyk@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Galka\\TelegramBotLogger\\Providers\\TelegramBotLoggerProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Galka\\TelegramBotLogger\\": "src"
+        }
+    }
+}
